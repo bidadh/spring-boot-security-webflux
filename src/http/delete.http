@@ -1,0 +1,6 @@
+DELETE /api/movie/100 HTTP/1.1
+Host: {{host}}:{{port}}
+Accept: *
+Authorization: Bearer {{token}}
+
+###

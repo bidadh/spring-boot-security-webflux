@@ -1,0 +1,12 @@
+POST /{{context}}/oauth/token HTTP/1.1
+Host: {{host}}:{{port}}
+Accept: application/json
+Authorization: Basic oAuthClientAppID secret
+cache-control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+password=password&username={{username}}&grant_type=password
+
+> response-handlers/token.js
+
+###

@@ -1,0 +1,13 @@
+PUT /api/movie/100 HTTP/1.1
+Host: {{host}}:{{port}}
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "id": 100,
+    "title": "UPDATED - My Movie",
+    "genre": "UPDATED - Comedy"
+}
+
+###
