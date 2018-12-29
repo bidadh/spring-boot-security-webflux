@@ -4,8 +4,8 @@ Content-Type: application/json
 Authorization: Bearer {{token}}
 
 {
-    "id": 103,
-    "title": "My Movie 4",
+    "id": 105,
+    "title": "My Movie 5",
     "genre": "Drama"
 }
 
